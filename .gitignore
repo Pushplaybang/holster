@@ -1,0 +1,50 @@
+### OSX ###
+.DS_Store
+*/.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+### Project Specific ###
+# Dependency directories
+node_modules
+.sass-cache
+bower_components
+assets/components
+assets/favicons
+webapp/lib/scss/lib
+webapp/public
+
+# for a selection of useful project specific template see https://github.com/github/gitignore
+
