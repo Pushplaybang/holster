@@ -1,0 +1,31 @@
+<template name="holster">
+  <span class="holster {{ type }} {{ mod }} {{ color }}"></span>
+</template>
+
+<template name="holsterSingle">
+  {{> holster type=type mod=mod color=color }}
+</template>
+
+<template name="holsterDouble">
+  <span class="placeholder-wrap">
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod="end" color=color }}
+  </span>
+</template>
+
+<template name="holsterTriple">
+  <span class="placeholder-wrap">
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod="end" color=color }}
+  </span>
+</template>
+
+<template name="holsterQuad">
+  <span class="placeholder-wrap">
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod=mod color=color }}
+    {{> holster type=type mod="end" color=color }}
+  </span>
+</template>

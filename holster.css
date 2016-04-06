@@ -1,0 +1,62 @@
+.holster {
+  width: 100%;
+  display: block;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+/* Type */
+.holster.title {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.holster.h-1 {
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.holster.h-2 {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.holster.h-3 {
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+.holster.paragraph {
+  height: 16px;
+  margin-bottom: 10px;
+}
+
+.holster.small {
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+/* mod */
+.holster.half {
+  width: 50%;
+}
+
+.holster.end {
+  width: 70%;
+}
+
+/* color */
+.holster.light {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.holster.grey {
+  background-color: #aaa;
+  background-color: rgba(160, 160, 160, 0.24);
+}
+
+.holster.dark {
+  background-color: #555;
+  background-color: rgba(75, 75, 75, 0.24);
+}
