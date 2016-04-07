@@ -10,8 +10,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('blaze-html-templates');
-  api.use('standard-minifier-css@1.1.9');
-  api.use('standard-minifier-js@1.1.9');
+  api.use('standard-minifier-css@1.0.4');
+  api.use('standard-minifier-js@1.0.4');
   api.use('es5-shim');
   api.use('ecmascript');
   api.addFiles('holster.html');
