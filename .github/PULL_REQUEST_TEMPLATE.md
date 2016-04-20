@@ -1,13 +1,13 @@
-## Scope 
+## Scope
 
 
-### Work Done
+### Work done
 
 
-## Steps to Test
+## Steps to test
 
 
-## Screen Shots
+## Screenshots
 
 
 
