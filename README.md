@@ -22,7 +22,7 @@ There are a few templates to choose from, with relatively simple options,  Each 
 
  * holsterSingle
  * holsterDouble
- * holsterTripple
+ * holsterTriple
  * holsterQuad
 
 each takes three parameters, heres an example:
